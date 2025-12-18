@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout 1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            border: 4px solid black;
+            width: 100%;
+        }
+
+        .top {
+            background: skyblue;
+            height: 60px;
+            border-bottom: 4px solid black;
+        }
+
+        .middle {
+            display: flex;
+            height: 250px;
+            border-bottom: 4px solid black;
+        }
+
+        .left {
+            background:aqua;
+            width: 25%;
+            border-right: 4px solid black;
+        }
+
+        .center {
+            background: aquamarine;
+            width: 45%;
+            border-right: 4px solid black;
+        }
+
+        .right {
+            background: rgb(214, 231, 181);
+            width: 30%;
+        }
+
+        .bottom1 {
+            background: lightblue;
+            height: 60px;
+            border-bottom: 4px solid black;
+        }
+
+        .bottom2 {
+            background: paleturquoise;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="top"></div>
+
+    <div class="middle">
+        <div class="left"></div>
+        <div class="center"></div>
+        <div class="right"></div>
+    </div>
+
+    <div class="bottom1"></div>
+    <div class="bottom2"></div>
+</div>
+
+</body>
+</html>
